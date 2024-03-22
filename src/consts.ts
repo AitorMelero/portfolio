@@ -1,4 +1,4 @@
-import type { Site, Page, Links, Socials } from '@types'
+import type { Site, Page, Links, Socials, Skills } from '@types'
 
 // Global
 export const SITE: Site = {
@@ -66,5 +66,39 @@ export const SOCIALS: Socials = [
     ICON: 'linkedin',
     TEXT: 'Aitor Melero Picón',
     HREF: 'https://www.linkedin.com/in/aitor-melero-pic%C3%B3n-678105293/'
+  }
+]
+
+// Skills
+export const SKILLS: Skills = [
+  {
+    TEXT: 'Astro',
+    ICON: 'astro',
+    HREF: 'https://astro.build'
+  },
+  {
+    TEXT: 'Javascript',
+    ICON: 'javascript',
+    HREF: 'https://www.javascript.com'
+  },
+  {
+    TEXT: 'Typescript',
+    ICON: 'typescript',
+    HREF: 'https://www.typescriptlang.org'
+  },
+  {
+    TEXT: 'Tailwind',
+    ICON: 'tailwind',
+    HREF: 'https://tailwindcss.com'
+  },
+  {
+    TEXT: 'React',
+    ICON: 'react',
+    HREF: 'https://react.dev/'
+  },
+  {
+    TEXT: 'HTML',
+    ICON: 'html',
+    HREF: 'https://developer.mozilla.org/es/docs/Web/HTML'
   }
 ]

@@ -18,3 +18,9 @@ export type Socials = Array<{
   TEXT: string
   HREF: string
 }>
+
+export type Skills = Array<{
+  TEXT: string
+  ICON: string
+  HREF: string
+}>
