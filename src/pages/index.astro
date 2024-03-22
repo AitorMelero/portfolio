@@ -99,16 +99,16 @@ const stack = [
             class="animated flex flex-wrap gap-4 justify-center mt-5"
           >
             <a
-              href="/blog"
+              href="/projects"
               class="py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend"
             >
-              Read my blog
+              Ver proyectos
             </a>
             <a
               href="/work"
               class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend"
             >
-              View my work
+              Ver trabajos
             </a>
           </div>
         </div>
@@ -149,19 +149,21 @@ const stack = [
         </article>
       </section>
 
-      <!-- Blog Preview Section -->
+      <!-- Jobs Preview Section -->
       <section class="animate">
         <div class="space-y-4">
           <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">Recent posts</p>
+            <p class="font-semibold text-black dark:text-white">
+              Trabajos recientes
+            </p>
             <a
-              href="/blog"
+              href="/works"
               class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"
             >
               <span
                 class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"
               >
-                All posts
+                Todos los trabajos
               </span>
             </a>
           </div>
@@ -177,42 +179,12 @@ const stack = [
         </div>
       </section>
 
-      <!-- Tech Stack Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <p class="font-semibold text-black dark:text-white">
-            Website build with
-          </p>
-          <div class="flex flex-wrap items-center gap-2 mt-5">
-            <!-- {
-              stack.map((item) => (
-                <StackCard text={item.text} icon={item.icon} href={item.href} />
-              ))
-            } -->
-          </div>
-          <div>
-            Performing reactivity and statefulness, special guest
-            <a
-              href="https://www.solidjs.com/"
-              target="_blank"
-              class="w-fit group underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"
-            >
-              <span
-                class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"
-              >
-                SolidJS
-              </span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Project Preview Section -->
+      <!-- Projects Preview Section -->
       <section class="animate">
         <div class="space-y-4">
           <div class="flex justify-between">
             <p class="font-semibold text-black dark:text-white">
-              Recent projects
+              Proyectos recientes
             </p>
             <a
               href="/projects"
@@ -221,7 +193,7 @@ const stack = [
               <span
                 class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend"
               >
-                All projects
+                Todos los proyectos
               </span>
             </a>
           </div>
@@ -237,11 +209,27 @@ const stack = [
         </div>
       </section>
 
+      <!-- Skills Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <p class="font-semibold text-black dark:text-white">Habilidades</p>
+          <div class="flex flex-wrap items-center gap-2 mt-5">
+            <!-- {
+              stack.map((item) => (
+                <StackCard text={item.text} icon={item.icon} href={item.href} />
+              ))
+            } -->
+          </div>
+        </div>
+      </section>
+
       <!-- Contact Section -->
       <section class="animate">
         <div>
-          <p class="font-semibold text-black dark:text-white">Let's Connect</p>
-          <p>Reach out to me via email or on social media.</p>
+          <p class="font-semibold text-black dark:text-white">
+            Datos de contacto
+          </p>
+          <p>Puedes contactar conmigo a través de email o redes sociales.</p>
           <div class="grid grid-cols-4 gap-y-2 mt-4 auto-cols-min">
             {
               SOCIALS.map((social) => (

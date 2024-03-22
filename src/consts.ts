@@ -2,15 +2,15 @@ import type { Site, Page, Links, Socials } from '@types'
 
 // Global
 export const SITE: Site = {
-  TITLE: 'Astro Sphere',
-  DESCRIPTION: 'Welcome to Astro Sphere, a portfolio and blog for designers and developers.',
-  AUTHOR: 'Mark Horn'
+  TITLE: 'aitormelero.dev',
+  DESCRIPTION: 'Portfolio personal de Aitor Melero',
+  AUTHOR: 'Aitor Melero'
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: 'Work',
-  DESCRIPTION: 'Places I have worked.'
+  TITLE: 'Trabajo',
+  DESCRIPTION: 'Lugares donde he trabajado.'
 }
 
 // Blog Page
@@ -21,32 +21,28 @@ export const BLOG: Page = {
 
 // Projects Page
 export const PROJECTS: Page = {
-  TITLE: 'Projects',
-  DESCRIPTION: 'Recent projects I have worked on.'
+  TITLE: 'Proyectos',
+  DESCRIPTION: 'Proyectos recientes en los que he trabajado.'
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: 'Search',
-  DESCRIPTION: 'Search all posts and projects by keyword.'
+  TITLE: 'Buscar',
+  DESCRIPTION: 'Busca entre mis proyectos.'
 }
 
 // Links
 export const LINKS: Links = [
   {
-    TEXT: 'Home',
+    TEXT: 'Inicio',
     HREF: '/'
   },
   {
-    TEXT: 'Work',
+    TEXT: 'Trabajos',
     HREF: '/work'
   },
   {
-    TEXT: 'Blog',
-    HREF: '/blog'
-  },
-  {
-    TEXT: 'Projects',
+    TEXT: 'Proyectos',
     HREF: '/projects'
   }
 ]
@@ -56,25 +52,19 @@ export const SOCIALS: Socials = [
   {
     NAME: 'Email',
     ICON: 'email',
-    TEXT: 'markhorn.dev@gmail.com',
-    HREF: 'mailto:markhorn.dev@gmail.com'
+    TEXT: 'meleropiconaitor@gmail.com',
+    HREF: 'mailto:meleropiconaitor@gmail.com'
   },
   {
     NAME: 'Github',
     ICON: 'github',
-    TEXT: 'markhorn-dev',
-    HREF: 'https://github.com/markhorn-dev/astro-sphere'
+    TEXT: 'AitorMelero',
+    HREF: 'https://github.com/AitorMelero'
   },
   {
     NAME: 'LinkedIn',
     ICON: 'linkedin',
-    TEXT: 'markhorn-dev',
-    HREF: 'https://www.linkedin.com/in/markhorn-dev/'
-  },
-  {
-    NAME: 'Twitter',
-    ICON: 'twitter-x',
-    TEXT: 'markhorn_dev',
-    HREF: 'https://twitter.com/markhorn_dev'
+    TEXT: 'Aitor Melero Picón',
+    HREF: 'https://www.linkedin.com/in/aitor-melero-pic%C3%B3n-678105293/'
   }
 ]
