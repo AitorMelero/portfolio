@@ -1,17 +1,14 @@
 ---
 import { getCollection } from 'astro:content';
 import PageLayout from '@layouts/PageLayout.astro';
-// import ArrowCard from "@components/ArrowCard"
+import ArrowCard from '@components/ArrowCard';
 import StackCard from '@components/StackCard.astro';
 import { SITE, SKILLS, SOCIALS } from '@consts';
+import { formatWorkDate, works } from '@lib/works';
 
-// const posts = (await getCollection("blog"))
-//   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-//   .slice(0,3)
-
-// const projects = (await getCollection("projects"))
-//   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-//   .slice(0,3)
+const projects = (await getCollection('projects'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
 ---
 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
@@ -99,29 +96,11 @@ import { SITE, SKILLS, SOCIALS } from '@consts';
       <section class="animate">
         <article>
           <p>
-            I am a <b><i>software engineer</i></b>, <b><i>ui/ux designer</i></b
-            >, <b><i>product planner</i></b>, <b><i>mentor</i></b>, <b
-              ><i>student</i></b
-            >, <b><i>minimalist</i></b>, <b><i>eternal optimist</i></b>, <b
-              ><i>crypto enthusiast</i></b
-            > and <b><i>sarcasm connoisseur</i></b>.
-          </p>
-          <p>
-            I love to both build and break things. I am motivated by challenging
-            projects with self-guided research and dynamic problem solving. My
-            true passion is crafting creative front end designs with unique
-            takes on color, typography and motion.
-          </p>
-          <p>During my career</p>
-          <p>
-            I have built products ranging from marketing and ecommerce websites
-            to complex enterprise apps with focus on delivering fast, elegant
-            code along with delightful user interfaces.
-          </p>
-          <p>Now</p>
-          <p>
-            I currently work as a software engineer at StreamlineFS, where I do
-            product planning, design and development.
+            +3 años de experiencia desarrollando aplicaciones web con React.
+            Graduado en Ingeniería Informática en la Universidad Autónoma de
+            Madrid. Apasionado del código limpio, buenas prácticas de
+            programación y de la implementación de ideas creativas en software.
+            Aprendiendo para ser un futuro Software Engineer Manager.
           </p>
         </article>
       </section>
@@ -134,7 +113,7 @@ import { SITE, SKILLS, SOCIALS } from '@consts';
               Trabajos recientes
             </p>
             <a
-              href="/works"
+              href="/work"
               class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend"
             >
               <span
@@ -145,13 +124,23 @@ import { SITE, SKILLS, SOCIALS } from '@consts';
             </a>
           </div>
           <ul class="space-y-4">
-            <!-- {
-              posts.map((post) => (
-                <li>
-                  <ArrowCard entry={post} />
+            {
+              works.map((work) => (
+                <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
+                  <div class="text-sm uppercase mb-4">
+                    {formatWorkDate(work.data.dateStart)} -{' '}
+                    {formatWorkDate(work.data.dateEnd)}
+                  </div>
+                  <div class="text-black dark:text-white font-semibold">
+                    {work.data.company}
+                  </div>
+                  <div class="text-md font-semibold">{work.data.role}</div>
+                  <article class="prose dark:prose-invert">
+                    <work.Content />
+                  </article>
                 </li>
               ))
-            } -->
+            }
           </ul>
         </div>
       </section>
@@ -175,13 +164,13 @@ import { SITE, SKILLS, SOCIALS } from '@consts';
             </a>
           </div>
           <ul class="space-y-4">
-            <!-- {
+            {
               projects.map((project) => (
                 <li>
                   <ArrowCard entry={project} />
                 </li>
               ))
-            } -->
+            }
           </ul>
         </div>
       </section>
