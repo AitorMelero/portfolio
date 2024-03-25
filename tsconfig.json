@@ -2,13 +2,13 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "strictNullChecks": true,
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/meleA/Workspace/portfolio",
     "paths": {
       "@*": [
         "src/*"
       ]
     },
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   }
 }
