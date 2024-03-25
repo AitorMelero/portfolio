@@ -72,24 +72,24 @@ export const SOCIALS: Socials = [
 // Skills
 export const SKILLS: Skills = [
   {
-    TEXT: 'Astro',
-    ICON: 'astro',
-    HREF: 'https://astro.build'
+    TEXT: 'HTML',
+    ICON: 'html',
+    HREF: 'https://developer.mozilla.org/es/docs/Web/HTML'
   },
   {
-    TEXT: 'Javascript',
+    TEXT: 'CSS',
+    ICON: 'css',
+    HREF: 'https://developer.mozilla.org/es/docs/Web/CSS'
+  },
+  {
+    TEXT: 'JavaScript',
     ICON: 'javascript',
     HREF: 'https://www.javascript.com'
   },
   {
-    TEXT: 'Typescript',
+    TEXT: 'TypeScript',
     ICON: 'typescript',
     HREF: 'https://www.typescriptlang.org'
-  },
-  {
-    TEXT: 'Tailwind',
-    ICON: 'tailwind',
-    HREF: 'https://tailwindcss.com'
   },
   {
     TEXT: 'React',
@@ -97,8 +97,43 @@ export const SKILLS: Skills = [
     HREF: 'https://react.dev/'
   },
   {
-    TEXT: 'HTML',
-    ICON: 'html',
-    HREF: 'https://developer.mozilla.org/es/docs/Web/HTML'
+    TEXT: 'Vite',
+    ICON: 'vite',
+    HREF: 'https://vitejs.dev/'
+  },
+  {
+    TEXT: 'Tailwind',
+    ICON: 'tailwind',
+    HREF: 'https://tailwindcss.com'
+  },
+  {
+    TEXT: 'Node.js',
+    ICON: 'nodejs',
+    HREF: 'https://nodejs.org/en'
+  },
+  {
+    TEXT: 'npm',
+    ICON: 'npm',
+    HREF: 'https://www.npmjs.com/'
+  },
+  {
+    TEXT: 'MySQL',
+    ICON: 'mysql',
+    HREF: 'https://www.mysql.com/'
+  },
+  {
+    TEXT: 'Astro',
+    ICON: 'astro',
+    HREF: 'https://astro.build'
+  },
+  {
+    TEXT: 'Python',
+    ICON: 'python',
+    HREF: 'https://www.python.org/'
+  },
+  {
+    TEXT: 'Django',
+    ICON: 'django',
+    HREF: 'https://www.djangoproject.com/'
   }
 ]
