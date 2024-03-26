@@ -5,6 +5,7 @@ export interface Page {
 
 export interface Site extends Page {
   AUTHOR: string
+  IMAGE: string
 }
 
 export type Links = Array<{
