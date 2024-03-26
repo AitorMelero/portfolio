@@ -13,4 +13,10 @@ demoUrl: https://chess-game-ten-indol.vercel.app/
 repoUrl: https://github.com/AitorMelero/chess-game
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Este proyecto surge porque siempre había querido implementar mi propia ajedrez y porque programar una ajedrez conlleva crear previamente una buena estructura lógica. Organizar por clases las diferentes piezas y componentes del juego junto a implementar la lógica de movimientos y de jugadas especiales, me permitió aprender la importancia del análisis y organización previo del código, llegando a tener que hacer uso de algún patrón de arquitectura como **MVC** (**Modelo Vista Controlador**). Además, este fue mi primer proyecto en **TypeScript**, lo que me permitió sacarle partido debido a la importancia y gran ayuda que supone clasificar los componentes del ajedrez en tipos.
+
+El ajedrez implementado es para dos jugadores que hagan uso de un mismo dispositivo, pero no descarto incluir una **IA** en el futuro para jugar contra una máquina. Se puede navegar por el historial de la partida durante la misma.
+
+![Pantalla principal](/images/project-3/image-1.png)
+
+![Ejemplo de vista móvil](/images/project-3/image-2.png)
