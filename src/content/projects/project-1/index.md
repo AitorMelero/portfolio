@@ -1,15 +1,21 @@
 ---
-title: "Blog de Arduino"
-summary: "Blog con artículos relacionados con proyectos de Arduino"
-date: "Oct 31 2023"
+title: 'Blog de Arduino'
+summary: 'Blog con artículos relacionados con proyectos de Arduino'
+date: 'Oct 31 2023'
 draft: false
 tags:
-- Astro
-- JavaScript
-- Tailwind
-- React
+  - Astro
+  - JavaScript
+  - Tailwind
+  - React
 demoUrl: https://www.arduino-aibentor.dev/
 repoUrl: https://github.com/AitorMelero/arduino-project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+En este blog de proyectos de **Arduino** empecé a experimentar con el uso del framework de **Astro** y con el uso de **React** de manera conjunta. La idea era crear un blog sencillo con un estilo basado en la web de documentación de [React](https://react.dev/) que permitiera a un compañero ir publicando algún proyecto de aprendizaje de **Arduino** sin tener que preocuparse por el estilo e implementación de los artículos. Implementé un layout de base con algún componente para que siguiendo unas sencillas intrucciones mi compañero pudiera publicar sus artículos con un buen aspecto visual de los mismos. Este proyecto también me sirvió para aprender a publicar una web en un servidor externo (con **Vercel**) y a configurarlo con un dominio comprado.
+
+![Pantalla principal](/images/project-1/image-2.png)
+
+![Ejemplo de artículo](/images/project-1/image-1.png)
+
+![Ejemplo de vista móvil](/images/project-1/image-3.png)
