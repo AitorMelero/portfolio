@@ -1,14 +1,14 @@
 ---
-import { getCollection } from 'astro:content';
-import PageLayout from '@layouts/PageLayout.astro';
-import ArrowCard from '@components/ArrowCard';
-import StackCard from '@components/StackCard.astro';
-import { SITE, SKILLS, SOCIALS } from '@consts';
-import { formatWorkDate, works } from '@lib/works';
+import { getCollection } from 'astro:content'
+import PageLayout from '@layouts/PageLayout.astro'
+import ArrowCard from '@components/ArrowCard'
+import StackCard from '@components/StackCard.astro'
+import { SITE, SKILLS, SOCIALS } from '@consts'
+import { formatWorkDate, works } from '@lib/works'
 
 const projects = (await getCollection('projects'))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 3);
+  .slice(0, 3)
 ---
 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
@@ -83,6 +83,15 @@ const projects = (await getCollection('projects'))
               class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend"
             >
               Ver trabajos
+            </a>
+            <a
+              href="CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Aitor_Melero_Curriculum.pdf"
+              class="py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base bg-black/15 dark:bg-white/15 hover:bg-black/5 hover:dark:bg-white/5 blend"
+            >
+              Descargar currículum
             </a>
           </div>
         </div>
