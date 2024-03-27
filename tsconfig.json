@@ -2,34 +2,10 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "strictNullChecks": true,
-    "baseUrl": "C:/Users/meleA/Workspace/portfolio",
+    "baseUrl": ".",
     "paths": {
       "@*": [
         "src/*"
-      ],
-      "@/components": [
-        "src/components/*"
-      ],
-      "@/content": [
-        "src/content/*"
-      ],
-      "@/layouts": [
-        "src/layouts/*"
-      ],
-      "@/lib": [
-        "src/lib/*"
-      ],
-      "@/pages": [
-        "src/pages/*"
-      ],
-      "@/styles": [
-        "src/styles/*"
-      ],
-      "@/consts": [
-        "src/consts.ts"
-      ],
-      "@/types": [
-        "src/types.ts"
       ]
     },
     "jsx": "preserve",
