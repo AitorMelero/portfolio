@@ -5,7 +5,7 @@ export const SITE: Site = {
   TITLE: 'aitormelero.dev',
   DESCRIPTION: 'Portfolio personal de Aitor Melero',
   AUTHOR: 'Aitor Melero',
-  IMAGE: 'https://media.licdn.com/dms/image/D4E03AQHaa3nQbJu_Bg/profile-displayphoto-shrink_200_200/0/1698741870539?e=1717027200&v=beta&t=-wX06RKXo8TPnPCzRuBxHBfQyfEThCDYa2fh7OnpP48'
+  IMAGE: 'coding-1.jpeg'
 }
 
 // Work Page
