@@ -1,6 +1,6 @@
 ---
 company: "Beresoft"
-role: "Desarrollador junior React"
+role: "Desarrollador Software Junior"
 dateStart: "03/01/2021"
 dateEnd: "09/01/2023"
 ---
